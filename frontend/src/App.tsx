@@ -1,13 +1,9 @@
 import React from 'react'
-import logo from './logo.svg'
-import './App.css'
-
-
 
 function App() {
 	return (
-		<div>
-			<h1>React App</h1>
+		<div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
+			<h1>Chatr</h1>
 		</div>
 	)
 
