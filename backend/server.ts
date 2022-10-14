@@ -20,3 +20,5 @@ app.use(express.static('public'))
 	.use(bodyParser.json())
 
 const port = process.env.PORT
+
+app.listen(port, () => print.success(`Example app listening on port ${port}`))
