@@ -11,7 +11,7 @@ import print from './print'
 const app = express()
 express.Router()
 
-app.use(express.static("public"))
+app.use(express.static('public'))
 	.use(cors())
 	.use(cookieParser())
 	.use(bodyParser.urlencoded({
